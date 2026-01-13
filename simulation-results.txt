@@ -1,0 +1,41 @@
+=== Simulation WAN + Cloud ===
+Lancement de la simulation...
+✅ Création de 2 nœuds :
+   - Nœud 0 : Client local
+   - Nœud 1 : Serveur Cloud
+✅ Configuration WAN :
+   - Débit : 10 Mbps
+   - Latence : 5 ms
+✅ Configuration réseau :
+   - Client : 192.168.1.1
+   - Cloud  : 192.168.1.2
+✅ Serveur Cloud démarré (port 9)
+✅ Client configuré :
+   - 5 paquets de 1024 octets
+   - Intervalle : 1 seconde
+
+🚀 Début de la simulation...
+
+At time +2s client sent 1024 bytes to 192.168.1.2 port 9
+At time +2.00584s server received 1024 bytes from 192.168.1.1 port 49153
+At time +2.00584s server sent 1024 bytes to 192.168.1.1 port 49153
+At time +2.01169s client received 1024 bytes from 192.168.1.2 port 9
+At time +3s client sent 1024 bytes to 192.168.1.2 port 9
+At time +3.00584s server received 1024 bytes from 192.168.1.1 port 49153
+At time +3.00584s server sent 1024 bytes to 192.168.1.1 port 49153
+At time +3.01169s client received 1024 bytes from 192.168.1.2 port 9
+At time +4s client sent 1024 bytes to 192.168.1.2 port 9
+At time +4.00584s server received 1024 bytes from 192.168.1.1 port 49153
+At time +4.00584s server sent 1024 bytes to 192.168.1.1 port 49153
+At time +4.01169s client received 1024 bytes from 192.168.1.2 port 9
+At time +5s client sent 1024 bytes to 192.168.1.2 port 9
+At time +5.00584s server received 1024 bytes from 192.168.1.1 port 49153
+At time +5.00584s server sent 1024 bytes to 192.168.1.1 port 49153
+At time +5.01169s client received 1024 bytes from 192.168.1.2 port 9
+At time +6s client sent 1024 bytes to 192.168.1.2 port 9
+At time +6.00584s server received 1024 bytes from 192.168.1.1 port 49153
+At time +6.00584s server sent 1024 bytes to 192.168.1.1 port 49153
+At time +6.01169s client received 1024 bytes from 192.168.1.2 port 9
+
+✅ Simulation terminée avec succès !
+=== Fin de la simulation WAN + Cloud ===
